@@ -6,7 +6,7 @@ This MERN Task For Zixflow
 
 1. Clone the repository:
     ```bash
-    git clone 
+    git clone https://github.com/warisamir/zixflow_task-main.git
 
 2. Navigate to the server directory:
     ```bash
@@ -47,13 +47,13 @@ This MERN Task For Zixflow
 
 ## Usage (Live)
 
-1. Access the client application at `https:.
-2. Access the server application at `https://
+1. Access the client application at `(https://zixflow-task-main-dhqq.vercel.app/)`
+2. Access the server application at `(https://zixflow-task-main.vercel.app/)`
 
 ## API Detail
 
 ### Get All Contacts
-- Endpoint: `http://localhost:8080/contact/getContactsList` or  `https://zixflow-task.vercel.app/contact/getContactsList`
+- Endpoint: `http://localhost:8080/contact/getContactsList` or  `(https://zixflow-task-main-dhqq.vercel.app/contact/getContactsList)`
 - Method: Get
 - Description: This endpoint is used for Get all Contacts.
 - Request Body: JSON
@@ -78,7 +78,7 @@ This MERN Task For Zixflow
     ```
 
 ### Create New Contact
-- Endpoint: `http://localhost:8080/contact/createContact` or  `https://zixflow-task.vercel.app/contact/createContact`
+- Endpoint: `http://localhost:8080/contact/createContact` or  `(https://zixflow-task-main-dhqq.vercel.app/contact/createContact)`
 - Method: POST
 - Description: This endpoint is used to create a new Contact.
 - Request Body: JSON
@@ -101,7 +101,7 @@ This MERN Task For Zixflow
     ```
 
 ### Update Contact By ID
-- Endpoint: `http://localhost:8080/contact/updateContactById/:id` or  `https://zixflow-task.vercel.app/contact/updateContactById/:id`
+- Endpoint: `http://localhost:8080/contact/updateContactById/:id` or  `(https://zixflow-task-main-dhqq.vercel.app/contact/updateContactById/:id)`
 - Method: PUT
 - Description: This endpoint is used to update a Contact by its ID.
 - Request Body: JSON
@@ -112,12 +112,12 @@ This MERN Task For Zixflow
     ```
 
 ### Delete Contact By ID
-- Endpoint: `http://localhost:8080/contact/deleteContactById/:id` or  `https://zixflow-task.vercel.app/contact/deleteContactById/:id`
+- Endpoint: `http://localhost:8080/contact/deleteContactById/:id` or  `(https://zixflow-task-main-dhqq.vercel.app/contact/deleteContactById/:id)`
 - Method: DELETE
 - Description: This endpoint is used to delete a Contact by its ID.
 
 ### Delete Contact's By ID's (Multiple)
-- Endpoint: `http://localhost:8080/contact/deleteContactList` or  `https://zixflow-task.vercel.app/contact/deleteContactList`
+- Endpoint: `http://localhost:8080/contact/deleteContactList` or  `(https://zixflow-task-main-dhqq.vercel.app/contact/deleteContactList)`
 - Method: DELETE
 - Description: This endpoint is used to delete multiple Contact's same time.
 -  Request Body: JSON
